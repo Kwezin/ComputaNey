@@ -4,7 +4,7 @@ from dao.db import init_db, insert_user, get_user
 
 logger = Logger()
 router = Router()
-
+#teste
 # Inicializa banco na primeira execução
 init_db()
 
