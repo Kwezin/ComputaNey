@@ -20,7 +20,7 @@ pipeline {
 
         stage('Instalar dependências') {
             steps {
-                sh '. $VENV/bin/activate && pip install -r requirements.txt'
+                sh '. $VENV/bin/activate && pip install -r app/requirements.txt'
             }
         }
 
